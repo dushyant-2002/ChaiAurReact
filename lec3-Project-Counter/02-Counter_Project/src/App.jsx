@@ -13,7 +13,7 @@ function App() {
   const [counter,setCounter] = useState(0);
   const  increaseValue = ()=>{
     if(counter == 20){
-      return;
+      return; 
     }
     setCounter(counter+1);
     console.log("counter increased in ui also")
