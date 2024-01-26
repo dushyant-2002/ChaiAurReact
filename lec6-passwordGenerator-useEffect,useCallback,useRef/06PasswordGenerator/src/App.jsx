@@ -45,7 +45,7 @@ const passwordRef = useRef(null);
     <input 
     type="text" 
     value={password} 
-    className='outline-none w-full py-1 py-3' 
+    className='outline-none w-full py-1 py-3 text-black' 
     placeholder='password' 
     readOnly
     ref={passwordRef}
